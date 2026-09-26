@@ -222,6 +222,12 @@ __marimo__/
 output/
 
 # File locali
-analisi/
 CLAUDE.md
 certs/
+
+# analisi/: whitelist esplicita — tutto escluso di default,
+# si "promuove" un file alla volta togliendo il commento qui sotto
+# (evita di pubblicare per errore appunti/dati personali nuovi)
+analisi/*
+#!analisi/01_eda.py
+#!analisi/02_features.py
